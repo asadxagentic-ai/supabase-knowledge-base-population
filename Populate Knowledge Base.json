@@ -1,0 +1,253 @@
+{
+  "name": "Populate Knowledge Base",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c4b7ec51-9aa7-42ab-becd-73cf15ad1d47",
+      "name": "Start KB Population",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        192
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const chunks = [{\"category\": \"identity\", \"title\": \"Who is Asadullah\", \"content\": \"Asadullah (also known as Abdullah or Asadullah Parvaiz, handle: My Excellency) is an AI Automation Engineer and Agentic Workflows Architect based in Faisalabad, Pakistan, available for remote work worldwide. He specialises in building agentic, multi-step automation workflows that eliminate manual work, scale business operations, and deliver measurable results.\\n\\nContact:\\n- Email: m.asadullah95e@gmail.com\\n- GitHub: github.com/asadxagentic-ai\\n- LinkedIn: linkedin.com/in/asadxagentic-ai\\n- Location: Faisalabad, Pakistan, Remote Worldwide\\n- Response Time: Within 24 hours, Discovery calls free\"}, {\"category\": \"identity\", \"title\": \"Asadullah engineering approach\", \"content\": \"Asadullah approaches every client project with an engineer's mindset: understand the root problem, identify the highest-leverage automation points, and build a robust system that runs reliably long after delivery. Every workflow delivered includes error handling and retry logic, execution logging, and full technical documentation with node-by-node walkthrough. He has approximately 3 years of development experience and studied academic computing at the University of Agriculture Faisalabad. He builds and sells services on Fiverr, LinkedIn, and GitHub.\"}, {\"category\": \"skills\", \"title\": \"Automation and AI orchestration skills\", \"content\": \"Core automation and AI orchestration skills: n8n Primary platform agentic pipelines custom JavaScript nodes webhook triggers error handling polling loops multistep conditional routing. Make.com Integromat Scenario-based automation YouTube Shorts publishing LinkedIn post scheduling API webhook chains conditional branching. LangChain LangGraph Multi-agent orchestration structured output parsing tool calling loops per-session memory management. AI Language Models: OpenAI GPT-4.1 GPT-4o o1 for content generation intent classification JSON function calling. Alibaba Cloud Qwen Max Turbo for SEO content pipelines AI humanisation structured output. Google Gemini 2.5 Flash for multimodal document processing vision-based landing page analysis. OpenRouter for unified multi-model API routing. Perplexity AI for real-time web research inside agentic workflows.\"}, {\"category\": \"skills\", \"title\": \"AI image voice prompt engineering and data tools\", \"content\": \"AI Image and Voice Generation: OpenAI DALL-E 3 for platform-specific social media visuals and WordPress featured images. Qwen Image 2.0 Pro for photorealistic featured and inline image synthesis inside n8n pipelines. VAPI.ai for outbound AI voice calls inbound AI receptionist agents structured call data capture voicemail detection. OpenAI Whisper for voice message transcription for Telegram AI agents. Prompt Engineering: Multi-stage prompt chains with role-specific system prompts. Structured output enforcement with LangChain parsers. AI humanisation to defeat GPTZero Originality.ai and similar detectors. Platform-aware generation with character limits format rules tone calibration. AI Data and Research Tools: Apify for AI-driven Google Maps scraping LinkedIn job scraping YouTube channel research. Firecrawl for deep website scraping with AI-powered content extraction. Tavily Search API for real-time AI web search. BatchData for AI-enriched real estate skip tracing. Hunter.io and MadKudu for email verification and AI-scored lead qualification.\"}, {\"category\": \"services\", \"title\": \"Services offered\", \"content\": \"Asadullah offers complete production-ready services: 1. Custom AI Automation Workflows: End-to-end agentic pipelines in n8n or Make.com with data ingestion AI analysis API calls conditional routing error handling and output delivery. 2. Lead Generation and CRM Automation: B2B pipelines that scrape score enrich and deliver qualified leads into your CRM with AI-written outreach emails. Real estate skip tracing pipelines using BatchData and HubSpot. 3. AI Content and SEO Publishing: Automated content factories AI-generated humanised illustrated and published SEO posts to WordPress driven by a Google Sheets content calendar. Humanisation ensures 0% AI detection scores. 4. Voice AI Agents VAPI: Outbound lead qualification calls and inbound AI receptionists with live integrations to Google Calendar HubSpot CRM and any API-accessible system. Voicemail detection and fallback logic included. 5. Email and Inbox Intelligence: AI-powered inbox management for Gmail and Microsoft Outlook classify label reply archive backup attachments and act automatically with anti-loop protection and full audit logs. 6. Operations Monitoring and Alerting: 24/7 business health monitoring that polls your APIs every 5 minutes detects metric anomalies performs AI root-cause analysis and dispatches formatted incident reports instantly. 7. Video Repurposing Automation: Long-form YouTube content converted to multiple AI-selected Shorts rendered by Shotstack and published directly to YouTube Shorts. 8. AI Social Media Automation: Multi-platform content pipelines generating LinkedIn Twitter Instagram and Facebook posts with matching DALL-E 3 visuals from a single topic input.\"}, {\"category\": \"pricing\", \"title\": \"Pricing tiers and rates\", \"content\": \"Asadullah pricing in USD. All tiers include documentation testing and a handover session. Starter $150 1 Workflow: For solopreneurs and single-use automation needs. Includes 1 workflow built and thoroughly tested basic error handling and retry logic full setup guide and documentation 1 revision round post-delivery. Growth $350 2-3 Workflows: For small teams building a core automation stack. Includes 2-3 complete workflows advanced error handling and logging Google Sheets execution logging full technical documentation 2 revision rounds. Professional $700 Full Pipeline: For agencies needing a complete automation system. Includes multi-workflow system build AI and CRM integrations full technical documentation 1-hour training and handover call 3 revision rounds. Enterprise From $1500 Custom System: For bespoke multi-agent systems at scale. Includes architecture design session multi-agent system build production deployment and setup monitoring and alerting setup unlimited revisions during build. Monthly Retainer $200 per month: Monthly workflow health audits credential refresh reminders bug fixes from API changes minor enhancements priority email support. Hourly rate $9 per hour for ad-hoc work.\"}, {\"category\": \"faq\", \"title\": \"FAQ platforms hosting AI models timelines technical knowledge\", \"content\": \"Q: What platforms do you build on? A: Primary platform is n8n for complex agentic workflows with custom JavaScript webhooks and a large native node library. Also builds on Make.com for scenario-based automations and can build hybrid systems. Q: Do I need to host n8n myself? A: Two options: n8n Cloud $20-50 per month is easiest zero infrastructure. Self-hosted n8n on a VPS DigitalOcean Railway Hetzner gives more control at lower cost. Q: What AI models do you integrate? A: OpenAI GPT-4.1 GPT-4o o1 DALL-E 3 Alibaba Cloud Qwen text and image Google Gemini including vision and OpenRouter for unified model routing. Q: How long does a typical project take? A: Simple single workflows 24-72 hours after scope confirmation. Full pipelines with multiple workflows and CRM connections 5-10 business days. Complex multi-agent systems like Agent Swarm 2-3 weeks. Rush 48-hour delivery available as an add-on. Q: Do I need technical knowledge to use what you build? A: No. Inputs are typically a Google Sheet a web form or a Telegram message. Outputs land in familiar places like email inbox Google Sheets HubSpot WordPress. Every delivery includes full documentation and a Loom video walkthrough.\"}, {\"category\": \"faq\", \"title\": \"FAQ support security voice AI WordPress documentation getting started\", \"content\": \"Q: What if a workflow breaks after delivery? A: A 7-day bug fix window is included post-delivery at no charge. Bugs caused by third-party API changes are covered. Monthly Retainer subscribers receive ongoing fixes. Every production workflow includes error notifications. Q: How do you handle credentials and security? A: All credentials stored in n8n encrypted credential vault never hardcoded in workflow logic or exposed in logs. The GitHub Workflow Publisher implements a recursive sanitiser that strips all API keys before committing to any public repository. Q: Can you build automations for real phone calls? A: Yes. VAPI.ai voice agents that qualify leads handle inbound reception book appointments and log structured conversation data connecting live to Google Calendar CRM or any API. Q: Can you integrate with WordPress at scale? A: Yes. WordPress REST API is a core competency. Running in production on trendfits.net via the Auto Blogging pipeline. Q: How do I get started? A: Email m.asadullah95e@gmail.com or connect on LinkedIn linkedin.com/in/asadxagentic-ai or GitHub github.com/asadxagentic-ai. Describe your need. Response within 24 hours. Discovery calls are free.\"}, {\"category\": \"cta\", \"title\": \"How to hire Asadullah or get started\", \"content\": \"Ready to Automate Your Business. How to get started with Asadullah: Discovery calls are free and carry no obligation. Contact options: Email m.asadullah95e@gmail.com LinkedIn linkedin.com/in/asadxagentic-ai GitHub github.com/asadxagentic-ai. Process: 1 Describe your automation need rough notes are enough. 2 Asadullah responds within 24 hours with a scoping call invitation or preliminary proposal. 3 Free discovery call to scope the project. 4 Project kicked off after scope confirmation. Turnaround times: Simple single workflows 24-72 hours. Full pipelines with CRM connections 5-10 business days. Complex multi-agent systems 2-3 weeks. Rush 48-hour delivery available as an add-on. All projects include documentation testing a handover session and a 7-day post-delivery bug fix window.\"}, {\"category\": \"workflow\", \"title\": \"Abdullah Lead Scraper\", \"content\": \"Project: Abdullah Lead Scraper. Tech Stack: Webhook, Set, HTTP Request, Google Sheets, Respond to Webhook, Limit, Aggregate, Code/JavaScript, Conditional Logic, Filter, Summarize, Merge. Description: ABDULLAH LEAD SCRAPER TECHNICAL DOCUMENTATION 1. PROJECT OVERVIEW This workflow automates local business lead generation using a webhook. Users submit a business type and location, the workflow searches Google Business listings through Apify, filters businesses that meet qualification rules, enriches each lead with social profiles, stores the final leads in Google Sheets, and returns a JSON summary. ------------------------------------------------------------------------ 2. EXECUTIVE SUMMARY Objectives \\u2022 Receive lead search requests. \\u2022 Scrape Google Business listings. \\u2022 Filter out businesses with websites, low ratings, or closed status. \\u2022 Enrich leads with Facebook and LinkedIn profiles. \\u2022 Save qualified leads. \\u2022 Return execution statistics.\"}, {\"category\": \"workflow\", \"title\": \"Agent Swarn\", \"content\": \"Project: Agent Swarn. Tech Stack: Telegram, Set, OpenAI, Switch, AI Agent, Gmail, AI Agent Tool, Google Calendar, Airtable, Tavily Search, Perplexity AI, OpenWeatherMap, OpenRouter, Code/JavaScript, Google Sheets, HTTP Request, AI Reasoning, Conversation Memory. Description: AGENT SWARM TECHNICAL DOCUMENTATION 1. PROJECT OVERVIEW Agent Swarm is an advanced multi-agent AI assistant built in n8n. Users interact with the system through Telegram using either text or voice messages. Voice messages are transcribed to text before processing. A central AI router determines which specialized agent should handle the request, including Email, Calendar, Contacts, Web Research, and YouTube. The workflow also maintains conversational memory, logs actions and token usage to Google Sheets, and returns responses back to Telegram. ------------------------------------------------------------------------ 2. EXECUTIVE SUMMARY Business Objectives \\u2022 Provide a unified AI assistant through Telegram. \\u2022 Support both voice and text conversations. \\u2022 Route requests to specialized AI agents.\"}, {\"category\": \"workflow\", \"title\": \"Analyze Landing Page with OpenAI and Get Optimization Tips\", \"content\": \"Project: Analyze Landing Page with OpenAI and Get Optimization Tips. Tech Stack: Form Trigger, HTTP Request, AI Agent, OpenAI GPT. Description: ANALYZE LANDING PAGE WITH OPENAI AND GET OPTIMIZATION TIPS TECHNICAL DOCUMENTATION 1. PROJECT OVERVIEW This workflow is a landing page analysis and conversion optimization assistant. It begins with a form where a user submits a landing page URL. The workflow then scrapes the website content and sends that content to an OpenAI-powered AI Agent. The AI Agent analyzes the page, roasts the landing page in a conversational tone, and generates conversion rate optimization recommendations tailored to the content that was scraped. The purpose of the workflow is to help founders, marketers, and CMOs quickly identify weaknesses in their landing pages and receive actionable improvement ideas without performing the analysis manually. ------------------------------------------------------------------------ 2. EXECUTIVE SUMMARY Business Objective \\u2022 Collect a landing page URL from the user.\"}, {\"category\": \"workflow\", \"title\": \"Auto Blogging\", \"content\": \"Project: Auto Blogging. Tech Stack: Google Sheets, Conditional Logic, OpenAI GPT, No-Op, File Conversion, HTTP Request, AI Agent, Structured Output Parser, Qwen AI, Code/JavaScript. Description: 1. Project Overview This workflow automates the entire end-to-end process of generating, humanizing, illustrating, and publishing high-quality SEO-optimized blog posts to a WordPress site (trendfits.net), directly triggered from a Google Sheet content calendar. 2. Executive Summary The Auto Blogging workflow takes a topic from Google Sheets, uses OpenAI (GPT-4.1-mini) to draft a comprehensive article, and then employs a rigorous \\\"Humanizer\\\" prompt to rewrite the HTML output to score 0% on AI detectors. It uses the Qwen Image model to generate highly relevant featured and inline images, uploads them to WordPress media, publishes the final formatted article, cross-posts a promotional Pin to Pinterest, and updates the Google Sheet status to \\\"Completed\\\". 3.\"}, {\"category\": \"workflow\", \"title\": \"Auto Linkedin Job Post Agent\", \"content\": \"Project: Auto Linkedin Job Post Agent. Tech Stack: HTTP Request, Code/JavaScript, Google Docs, Perplexity AI, Google Gemini, Conditional Logic, AI Agent, Gmail, Schedule Trigger, Brave Search. Description: 1. Project Overview This workflow functions as a fully automated job application agent. It scrapes LinkedIn for relevant job postings, evaluates and ranks them, generates highly personalized cover letters using AI, and automatically emails the applications to the respective companies along with the user's resume. 2. Executive Summary The Auto LinkedIn Job Post Agent operates on a scheduled trigger to continuously search for new job postings using an Apify LinkedIn scraper. It filters the top 10 jobs based on data richness and lower competition. It then pulls the user's resume from Google Docs, uses Perplexity AI to hunt down the actual recruitment emails for each company, and leverages Google Gemini to draft personalized cover letters and match analyses. Finally, it formats these into professional HTML emails and sends them directly to hiring managers via Gmail. 3.\"}, {\"category\": \"workflow\", \"title\": \"Auto categorize wordpress Posts\", \"content\": \"Project: Auto categorize wordpress Posts. Tech Stack: Manual Trigger, WordPress, AI Agent, OpenRouter. Description: 1. Project Overview This workflow automates the process of categorizing uncategorized or miscategorized WordPress posts by using an AI model to read the post title and assign the single most relevant category ID based on a predefined list. 2. Executive Summary Triggered manually, this workflow retrieves all posts from a connected WordPress site. It feeds the title of each post into an AI Agent powered by OpenRouter (using a free GPT model). The AI acts as a taxonomy specialist, selecting the best matching category from 4 fixed options (Fashion & Style, Health & Fitness, Home Decor, Trending News). Finally, it pushes the updated category ID back to the respective WordPress post. 3. Prerequisites - WordPress credentials (API access / Application Passwords) - OpenRouter API credentials (for accessing language models) 4.\"}, {\"category\": \"workflow\", \"title\": \"Automatic Gmail email labelling with OpenAI and Gmail API\", \"content\": \"Project: Automatic Gmail email labelling with OpenAI and Gmail API. Tech Stack: Gmail, OpenAI GPT, AI Agent, Conversation Memory, Wait/Polling. Description: 1. Project Overview This workflow functions as an intelligent, automated email triage system. It monitors a Gmail inbox for new messages and uses an AI Agent powered by OpenAI to dynamically categorize, label, and organize incoming emails based on the context, subject, sender, and content. 2. Executive Summary Triggered every minute by new emails arriving in a Gmail account, the workflow passes the email data to an advanced Langchain AI Agent equipped with Gmail tools. The AI reads the email, checks the existing label taxonomy in the user's Gmail, and assigns the most appropriate label. If no suitable label exists, the AI creates a structurally consistent new label (as a sub-label) and applies it. It also automatically removes the \\\"Inbox\\\" label for low-priority emails (like ads or promotions), keeping the primary inbox clean and focused on important communications. 3.\"}, {\"category\": \"workflow\", \"title\": \"CRM workflow\", \"content\": \"Project: CRM workflow. Tech Stack: Manual Trigger, Google Drive, File Extraction, AI Agent, Structured Output Parser, Set, Merge, HubSpot CRM, Qwen AI, OpenAI. Description: 1. Project Overview This workflow automates the post-meeting CRM data entry process. It analyzes Zoom meeting transcripts, extracts actionable sales insights, and automatically creates or updates contacts and deals in HubSpot based on the AI's evaluation of the prospect. 2. Executive Summary Triggered manually, this workflow downloads a Zoom meeting summary PDF from Google Drive and extracts its text. It then runs two parallel AI processes using Alibaba Cloud's Qwen models. The first AI simply extracts the client's name and email. The second, more advanced AI acts as a sales analyst to score the lead, identify red flags, pinpoint potential opportunities, and summarize the deal. The workflow merges this data and pushes it directly into HubSpot, updating the contact record and creating a new deal in the \\\"Decision Maker Bought-In\\\" stage. 3.\"}, {\"category\": \"workflow\", \"title\": \"Custome Tools Workflows for Claude Sheet Wriring and Overwriting\", \"content\": \"Project: Custome Tools Workflows for Claude Sheet Wriring and Overwriting. Tech Stack: Manual Trigger, Code/JavaScript, Google Sheets. Description: PINTEREST TOPICS \\u2192 SHEET WRITER (KWS, NO SHUFFLE) 1. Project Overview This workflow automatically generates a predefined collection of Pinterest-ready article topics and writes them into a Google Sheet. Each topic is assigned a Row ID and stored for later use by downstream content workflows. 2. Executive Summary Purpose: \\u2022 Generate a curated topic list. \\u2022 Assign sequential Row IDs. \\u2022 Populate Google Sheets automatically. Technology: \\u2022 n8n \\u2022 JavaScript Code node \\u2022 Google Sheets 3. Prerequisites \\u2022 n8n \\u2022 Google Sheets OAuth2 \\u2022 Target spreadsheet 4. Workflow Architecture Manual Trigger \\u2192 Build & Shuffle Topics \\u2192 Write to Google Sheet 5. Workflow Inputs & Outputs Input: \\u2022 Internal topic array Output: \\u2022 Google Sheet populated with Row ID and Topic columns. 6. Node-by-Node Explanation Start: Manual execution. Build & Shuffle Topics: Generates the predefined topic dataset and assigns Row IDs.\"}, {\"category\": \"workflow\", \"title\": \"GPT Based Wordpress Automation\", \"content\": \"Project: GPT Based Wordpress Automation. Tech Stack: Google Sheets, Conditional Logic, OpenAI GPT, No-Op, File Conversion, HTTP Request, AI Agent, Structured Output Parser. Description: 1. Project Overview This workflow automates the generation and publication of SEO-optimized WordPress blog posts and featured images. It pulls topic ideas from a Google Sheet, uses OpenAI's GPT models to draft the content and generate relevant imagery, and automatically publishes the finalized article to a WordPress site. 2. Executive Summary Triggered by a Google Sheet polling node, the workflow reads new topics marked as \\\"Enabled\\\". It utilizes OpenAI's `gpt-4.1-mini` to craft a highly detailed image generation prompt, which is passed to the DALL-E/OpenAI Image API (`gpt-image-1`) to create a featured image. This image is uploaded directly to the WordPress media library. Subsequently, another OpenAI agent generates a comprehensive, SEO-structured article (including meta descriptions, keywords, and FAQs) based on the same topic.\"}, {\"category\": \"workflow\", \"title\": \"GPT Chat-bot\", \"content\": \"Project: GPT Chat-bot. Tech Stack: Chat Trigger, AI Agent, Conversation Memory, Qwen AI. Description: 1. Project Overview This workflow functions as a simple, public-facing conversational AI assistant. It provides a web-based chat interface (n8n Webchat) where users can interact with an AI model that remembers the context of the conversation. 2. Executive Summary The GPT Chat-bot workflow is triggered by an n8n chat interface. User messages are routed to an AI Agent powered by the Alibaba Cloud Qwen language model. To ensure the bot can hold a natural conversation, it utilizes a Window Buffer Memory node that remembers the last 10 conversational turns. The AI responds directly back to the user via a streaming response, providing a fast and fluid chat experience. 3. Prerequisites - Alibaba Cloud Qwen API credentials (for the language model). - The n8n instance must have public chat webhooks enabled if you intend to share the URL externally. 4.\"}, {\"category\": \"workflow\", \"title\": \"Github Automation\", \"content\": \"Project: Github Automation. Tech Stack: Webhook, Code/JavaScript, HTTP Request, Wait/Polling, AI Agent, GitHub API, Conditional Logic, Gmail, Respond to Webhook, Qwen AI. Description: 1. Project Overview This workflow functions as an automated publishing pipeline for n8n workflows. It accepts a raw workflow payload via webhook, sanitizes it to remove sensitive credentials, dynamically generates a GitHub repository with AI-written documentation, and commits all related assets (JSON, screenshots, UI files) to GitHub before sending a confirmation email. 2. Executive Summary Triggered via an external POST webhook, the Workflow Publisher parses incoming n8n workflow data and binary assets (screenshots, UI files). A custom JavaScript node strips sensitive credential data from the JSON. It then creates a new public GitHub repository. Using an AI Agent (Alibaba Cloud Qwen), it reads the workflow structure and generates a comprehensive README.md and an optional blog article.\"}, {\"category\": \"workflow\", \"title\": \"Keyword targeting SEO content\", \"content\": \"Project: Keyword targeting SEO content. Tech Stack: Chat Trigger, HTTP Request, Batch Processing, OpenAI, Code/JavaScript, Google Drive, Qwen AI. Description: 1. Project Overview This workflow functions as an advanced, competitive SEO content generator. Given a keyword or topic from a chat interface, it actively scrapes the current top 3 Google search results, analyzes their content to find gaps and key insights, and generates a superior, human-sounding SEO article saved directly to Google Drive. 2. Executive Summary Triggered via an n8n chat interface, the workflow uses a RapidAPI Google Search endpoint to find the top 3 ranking URLs for the user's input. It iterates through these URLs, scraping and cleaning the HTML body text. This combined raw text is fed through a three-stage AI pipeline using Alibaba Cloud Qwen (acting as a data extractor, an SEO content writer, and a tone refiner). The final output is a deeply researched, factually accurate, humanized blog post designed to outrank competitors.\"}, {\"category\": \"workflow\", \"title\": \"Landing Page Analyzer\", \"content\": \"Project: Landing Page Analyzer. Tech Stack: Form Trigger, HTTP Request, Structured Output Parser, Google Gemini, Code/JavaScript, LLM Chain, Set, Gmail, OpenRouter. Description: 1. Project Overview This workflow functions as an automated Conversion Rate Optimization (CRO) auditor. Users submit a landing page URL via a web form, and the workflow uses advanced AI vision and text models to analyze the page's design, copy, and layout. It then generates a comprehensive, stylized HTML email report with actionable recommendations and emails it directly back to the user. 2. Executive Summary Triggered by an n8n form submission (collecting a URL and Email), the workflow immediately calls the Firecrawl API to scrape the target website, extracting both the markdown text and a full-page screenshot. An OpenRouter AI model (gpt-oss-20b) first parses the text to extract key marketing components (headlines, CTAs, trust signals).\"}, {\"category\": \"workflow\", \"title\": \"Lead Scraper\", \"content\": \"Project: Lead Scraper. Tech Stack: Form Trigger, Google Sheets, Code/JavaScript, HTTP Request, Filter, Batch Processing, Wait/Polling, AI Agent, Gmail, Qwen AI, No-Op. Description: 1. Project Overview This workflow functions as a fully automated B2B lead generation and outreach preparation tool. Based on a search term and location, it scrapes Google Maps for businesses, filters out previously saved leads to prevent duplicates, enriches the data by scraping the business's website for contact information (emails and social media links), and uses AI to draft a personalized cold email for each lead. 2. Executive Summary Triggered via an n8n form submission, the workflow accepts a search query (e.g., \\\"Plumbers\\\") and a location (e.g., \\\"New York\\\"). It checks a Google Sheet to ensure leads aren't duplicated, then uses the Apify Google Maps crawler to scrape up to 10 local businesses. After filtering for businesses with a rating above 2.5 and an active website, it saves the basic lead data to the Sheet.\"}, {\"category\": \"workflow\", \"title\": \"Linkedin Automation\", \"content\": \"Project: Linkedin Automation. Tech Stack: Conditional Logic, Qwen AI, Set, HTTP Request, Code/JavaScript, Respond to Webhook, Webhook. Description: 1. Project Overview This workflow functions as an automated LinkedIn publishing pipeline. Note that unlike other workflows in this directory, this is a Make.com (formerly Integromat) blueprint. It receives incoming post data via a webhook (typically from an external AI writer or content scheduler) and intelligently routes it to publish either a text-only LinkedIn post or an image-based LinkedIn post, followed by an email confirmation. 2. Executive Summary Triggered by a Custom Webhook, the workflow receives payload data containing a `post_body`, `has_image` boolean, and an optional `image_url`. A Router splits the execution path based on the presence of an image. If `has_image` is true and a valid URL is provided, it uses the LinkedIn \\\"Share Image\\\" module. If `has_image` is false, it uses the standard LinkedIn \\\"Create Post\\\" module.\"}, {\"category\": \"workflow\", \"title\": \"Microsoft Outlook Agent\", \"content\": \"Project: Microsoft Outlook Agent. Tech Stack: Microsoft Outlook, Filter, Microsoft OneDrive, OpenAI, AI Text Classifier, OpenAI GPT, HTML Extraction. Description: 1. Project Overview This workflow functions as an intelligent, automated Microsoft Outlook inbox manager. It monitors incoming emails, uses AI to classify them into distinct categories based on context, and then executes specific organizational actions for each category, such as auto-replying, saving attachments to OneDrive, extracting contacts, or filing emails into specific folders to keep the inbox clean. 2. Executive Summary Triggered every minute by a Microsoft Outlook polling node, the workflow extracts the HTML body of new emails. A Langchain Text Classifier powered by OpenAI evaluates the sender, subject, and body to assign one of six categories: Personal, Promotional, Social, Receipts, Work, or Miscellaneous. Depending on the AI's classification, the email takes a specific route.\"}, {\"category\": \"workflow\", \"title\": \"Nexus #U2014 AI Operations Hub\", \"content\": \"Project: Nexus #U2014 AI Operations Hub. Tech Stack: Schedule Trigger, HTTP Request, Code/JavaScript, Conditional Logic, AI Agent, OpenAI GPT, Set, Gmail, Google Sheets. Description: 1. Project Overview This workflow functions as a proactive AI-driven Operations Hub (Nexus). It continuously monitors critical business metrics across multiple domains (Sales, Support, Finance) and automatically detects anomalies. When an issue is found, an AI agent acts as a Level 1 site reliability engineer (SRE), investigating the root cause, proposing actionable next steps, and immediately alerting the responsible team. 2. Executive Summary Triggered every 5 minutes by a scheduled cron job, the workflow simultaneously pulls live data from three distinct API endpoints (Sales Metrics, Support Queue, and Payment Processing). A custom JavaScript node evaluates this data against predefined threshold rules (e.g., ticket backlog over 200, or payment failure rate > 5%). If no anomalies are detected, it logs a \\\"healthy tick\\\".\"}, {\"category\": \"workflow\", \"title\": \"Outbound Call Lead Qualifier\", \"content\": \"Project: Outbound Call Lead Qualifier. Tech Stack: Form Trigger, Google Sheets, Conditional Logic, Code/JavaScript, HTTP Request, Wait/Polling, Limit. Description: 1. Project Overview This workflow functions as a fully automated AI voice call lead qualifier. When a potential client fills out an inquiry form, the workflow immediately places an outbound phone call to that lead using a VAPI AI voice agent. The AI conducts a real qualifying conversation, asking about budget, urgency, service interest, and intent. The complete call results and structured conversation data are then saved to a Google Sheet for the sales team to review. 2. Executive Summary Triggered by a form submission (collecting Name, Phone, Email, Company, Role, Request, and Company Size), the workflow first standardizes the phone number format. If the number is invalid, it logs the lead as \\\"Incorrect Phone #\\\" and exits. For valid numbers, it triggers a VAPI outbound AI call with lead-specific variables (name, company, request) injected into the assistant's script.\"}, {\"category\": \"workflow\", \"title\": \"Property Lead Contact Enrichment from CRM\", \"content\": \"Project: Property Lead Contact Enrichment from CRM. Tech Stack: Manual Trigger, Schedule Trigger, HTTP Request, Set, Code/JavaScript, Excel/Spreadsheet, HubSpot CRM, Email, Filter, Split Out. Description: 1. Project Overview This workflow functions as an automated real estate lead generation and CRM enrichment pipeline. It searches for targeted investment-grade properties using the BatchData API based on customizable criteria, then performs skip tracing on each found property to uncover the owner's contact details (phone numbers, emails). The enriched leads are exported to Excel, pushed directly into HubSpot CRM, and summarized in an email report. 2. Executive Summary Triggered either on a daily schedule or manually, the workflow begins by setting a configurable block of search parameters (city, state, property type, value range, equity minimum, and owner quicklist type). It calls the BatchData property search API to find matching properties.\"}, {\"category\": \"workflow\", \"title\": \"Self Email Reply AI Agent\", \"content\": \"Project: Self Email Reply AI Agent. Tech Stack: Gmail, AI Agent, Structured Output Parser, Conditional Logic, No-Op, Qwen AI. Description: 1. Project Overview This workflow functions as a highly intelligent, spam-safe, autonomous email reply agent. It monitors a personal Gmail inbox every minute, uses an AI agent to classify each new email and determine if a reply is warranted, drafts a professional reply if needed, and sends it automatically \\u2014 all without human intervention. It includes multiple layers of protection to prevent replying to spam, phishing, promotional emails, or other automated senders. 2. Executive Summary This is a fully ACTIVE, always-on workflow. Every minute, it polls Gmail for new unread emails, filtering out promotional, social, and no-reply categories at the Gmail search level before the AI even sees them. The Qwen Cloud LLM (via Alibaba Cloud) acts as an executive email assistant.\"}, {\"category\": \"workflow\", \"title\": \"Self Healing Agent\", \"content\": \"Project: Self Healing Agent. Tech Stack: Schedule Trigger, HTTP Request, Conditional Logic, Code/JavaScript, LLM Chain, Claude AI, Switch, Set, Slack, No-Op. Description: Production n8n automation workflow: Self Healing Agent. Full technical documentation available on request.\"}, {\"category\": \"workflow\", \"title\": \"Short Converter\", \"content\": \"Project: Short Converter. Tech Stack: Conditional Logic, No-Op, AI Agent, Google Sheets, Qwen AI, Code/JavaScript, HTTP Request, File Extraction, Image Editing, Schedule Trigger, Limit. Description: 1. Project Overview This workflow functions as a fully automated, high-quality SEO content generation and publishing pipeline for the ShortConverter.com website (a file converter tool platform). Driven by a Google Sheets content plan, it reads a queued converter topic (e.g., \\\"JPG to PNG\\\"), generates a professionally structured, AdSense-safe, keyword-rich blog article using an AI agent, then directly publishes it to the WordPress site with all SEO metadata set. 2. Executive Summary Triggered by a Google Sheets row trigger (monitoring the \\\"Content Plan\\\" sheet), the workflow checks if the row's Status is \\\"Enabled\\\". If so, it invokes a highly detailed Langchain AI Agent with a 30-rule content brief. The agent generates a structured JSON response containing a post title, SEO title, meta description, keywords, intro content (HTML), main content (HTML with styled tables), and an FAQ section.\"}, {\"category\": \"workflow\", \"title\": \"Smart Lead Qualification\", \"content\": \"Project: Smart Lead Qualification. Tech Stack: Form Trigger, Conditional Logic, No-Op, HTTP Request, Hunter.io, Gmail, Set, HubSpot CRM. Description: 1. Project Overview This workflow functions as an intelligent, multi-stage B2B lead qualification and outreach pipeline. When a prospect submits their business email via a form, the system verifies the email's deliverability, scores the lead's company fit using predictive AI, and \\u2014 if the score is high enough \\u2014 automatically sends a personalized outreach email and logs the engagement directly into HubSpot CRM. 2. Executive Summary Triggered by a minimal \\\"Contact Us\\\" form collecting only a business email address, the workflow runs three sequential quality checks. First, Hunter.io verifies the email is real and deliverable. Second, MadKudu scores the lead using predictive analytics (firmographic data, company signals, and behavioral indicators) to determine the \\\"customer fit\\\" score. If the score exceeds 60, the lead is considered high-quality.\"}, {\"category\": \"workflow\", \"title\": \"Social Media Post Generator\", \"content\": \"Project: Social Media Post Generator. Tech Stack: Google Sheets, Conditional Logic, OpenAI, Set, HTTP Request, Merge. Description: 1. Project Overview This workflow functions as a fully automated, multi-platform social media content factory. When a new topic row is added to a Google Sheet, it automatically validates the content for safety, generates platform-tailored copy (Facebook, LinkedIn, Pinterest), relevant hashtags, and an AI image prompt \\u2014 all using GPT-4o-mini. The results are written back to the Google Sheet and can be passed downstream for image generation and publishing. 2. Executive Summary Triggered every minute by a Google Sheets Trigger (watching for new rows in \\\"Record 2\\\"), the workflow first validates that the topic is not empty and does not contain prohibited content (hate speech, violence, adult content, etc.).\"}, {\"category\": \"workflow\", \"title\": \"Trendsfit\", \"content\": \"Project: Trendsfit. Tech Stack: Conditional Logic, No-Op, HTTP Request, AI Agent, Google Sheets, Qwen AI, Code/JavaScript, Structured Output Parser, Schedule Trigger, Limit, Image Editing. Description: 1. Project Overview This workflow functions as the core automated blogging engine for trendfits.net \\u2014 a fashion, lifestyle, and trending content website. It processes content queued in a Google Sheet, generates a detailed, human-sounding, SEO-optimized blog article using an AI agent, creates a matching featured image, uploads both to WordPress, publishes the post, and marks the task as complete in the sheet. 2. Executive Summary Triggered by a Google Sheets trigger (polling for enabled rows), the workflow verifies the row's Status is \\\"Enabled\\\". For qualifying rows, it first uses OpenAI's DALL-E (or similar) to generate a high-quality WebP featured image based on the topic. The image is uploaded directly to the WordPress media library for trendfits.net.\"}, {\"category\": \"workflow\", \"title\": \"VAPI CALL Agent\", \"content\": \"Project: VAPI CALL Agent. Tech Stack: Code/JavaScript, Switch, Respond to Webhook, Google Calendar, Conditional Logic, Set, Google Sheets, Webhook. Description: 1. Project Overview This workflow functions as a real-time backend server for a VAPI AI phone receptionist. When a caller speaks to the VAPI AI voice assistant, it calls this n8n workflow via webhook to perform real business actions: checking Google Calendar availability, booking appointments, logging conversation data, and returning structured responses back to the AI in real time \\u2014 all within the duration of the live phone call. 2. Executive Summary This workflow acts as the \\\"brain\\\" connecting a VAPI AI voice agent to actual business systems. Triggered by an inbound VAPI webhook (a \\\"server-URL\\\" call when the AI needs to execute a tool), the workflow extracts the tool call details from the VAPI payload.\"}, {\"category\": \"workflow\", \"title\": \"Weather Report Agent\", \"content\": \"Project: Weather Report Agent. Tech Stack: Schedule Trigger, HTTP Request, Code/JavaScript, AI Agent, Structured Output Parser, Gmail, Qwen AI, No-Op. Description: 1. Project Overview This workflow functions as a fully automated, AI-powered daily weather intelligence briefing system. Every morning at 7:00 AM, it fetches real-time weather and 4-day forecast data (including Air Quality Index) for a configured city, feeds the raw data to an AI analyst, and generates a comprehensive, human-friendly intelligence report. The final report is formatted as a beautiful HTML email and delivered to the recipient's inbox. 2. Executive Summary Triggered daily at 7:00 AM by a Schedule node, the workflow makes two parallel API calls to WeatherAPI.com \\u2014 one for current conditions (temperature, humidity, wind, UV index, AQI) and one for the 4-day forecast including sunrise/sunset and rain probability. A JavaScript node then compiles all of this raw JSON data into a rich prompt for an AI model (OpenAI/Qwen).\"}, {\"category\": \"workflow\", \"title\": \"Website Lead Generation with AI Scoring\", \"content\": \"Project: Website Lead Generation with AI Scoring. Tech Stack: Set, Conditional Logic, AI Agent, Structured Output Parser, Gmail, Form Trigger, No-Op, Google Sheets, Qwen AI. Description: WEBSITE LEAD GENERATION WITH AI SCORING TECHNICAL DOCUMENTATION 1. PROJECT OVERVIEW This workflow automates the complete lead capture process for a business website. A visitor submits a contact form, the workflow validates the submitted data, uses Qwen AI to qualify the lead, stores the lead in Google Sheets, sends a personalized welcome email to the prospect, notifies the sales team with the AI score, and records the lead for future follow-up. The objective is to eliminate manual lead qualification while ensuring every lead receives an immediate response and every sales representative is informed of high-quality opportunities. ------------------------------------------------------------------------ 2. EXECUTIVE SUMMARY Business Objectives \\u2022 Capture website inquiries automatically. \\u2022 Normalize incoming lead information. \\u2022 Validate email addresses.\"}, {\"category\": \"workflow\", \"title\": \"Workflow Error Notifier\", \"content\": \"Project: Workflow Error Notifier. Tech Stack: Error Trigger, Gmail. Description: WORKFLOW ERROR NOTIFIER DOCUMENTATION 1. PROJECT OVERVIEW The Workflow Error Notifier is a lightweight monitoring workflow designed for n8n. Its purpose is to automatically notify the workflow owner whenever any active n8n workflow fails during execution. Instead of manually checking execution logs, this workflow listens for execution failures using the Error Trigger node and immediately sends an email containing the workflow name, error message, and execution URL. This enables rapid debugging and minimizes downtime. ------------------------------------------------------------------------ 2. EXECUTIVE SUMMARY Purpose \\u2022 Automatically monitor failed workflow executions. \\u2022 Instantly notify the administrator by email. \\u2022 Reduce debugging time. \\u2022 Improve workflow reliability.\"}, {\"category\": \"workflow\", \"title\": \"Yt Shorts Publisher\", \"content\": \"Project: Yt Shorts Publisher. Tech Stack: Webhook, Code/JavaScript, Google Sheets, Respond to Webhook, HTTP Request, Google Drive, Conditional Logic, Wait/Polling. Description: YT VIRAL SHORTS AUTOMATION WORKFLOW DOCUMENTATION 1. PROJECT OVERVIEW This project is an end-to-end automation pipeline built primarily in n8n with a companion Make.com scenario. Its objective is to convert a long-form YouTube video into multiple YouTube Shorts with minimal human intervention. The workflow accepts a YouTube URL from an external application, validates the request, downloads the source video, stores it in Google Drive, uses Qwen AI to identify the most viral moments, generates professional vertical clips through Shotstack, uploads the finished clips to Google Drive, creates AI-generated titles, descriptions and hashtags, sends the publishing payload to Make.com, uploads every clip to YouTube Shorts, logs execution results in Google Sheets, emails the user with a publishing summary, and finally returns a structured API response.\"}];\nreturn chunks.map(c => ({ json: c }));"
+      },
+      "id": "e2172bb4-fef5-4de4-ac51-55bebc69d147",
+      "name": "Emit KB Chunks",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        224,
+        192
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "5649bcda-da74-40a9-b301-9c1ee53d21e2",
+      "name": "All Chunks Inserted",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        672,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "text",
+              "name": "text",
+              "value": "={{ \"[\" + $json.category.toUpperCase() + \"] \" + $json.title + \"\\n\\n\" + $json.content }}",
+              "type": "string"
+            },
+            {
+              "id": "category",
+              "name": "category",
+              "value": "={{ $json.category }}",
+              "type": "string"
+            },
+            {
+              "id": "title",
+              "name": "title",
+              "value": "={{ $json.title }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "edc20cb2-8f3f-40cb-bafa-ddc09b287192",
+      "name": "Prepare Text",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        640,
+        192
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/embeddings",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ model: \"text-embedding-3-large\", input: $json.text }) }}",
+        "options": {}
+      },
+      "id": "982de247-626c-4905-85f8-13ed01ff04d6",
+      "name": "Get Embedding",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        848,
+        192
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "Npw6VGQ9Bl8dk5jt",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://apmrloxhhxfkdlretqtg.supabase.co/rest/v1/knowledge_base",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwbXJsb3hoaHhma2RscmV0cXRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUyMzk0OTIsImV4cCI6MjEwMDgxNTQ5Mn0.QWxeyHdMmBE9Swzlhq-OZAfbt54HE-YHL18Obwl9OTQ"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFwbXJsb3hoaHhma2RscmV0cXRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUyMzk0OTIsImV4cCI6MjEwMDgxNTQ5Mn0.QWxeyHdMmBE9Swzlhq-OZAfbt54HE-YHL18Obwl9OTQ"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ content: $(\"Prepare Text\").item.json.text, metadata: { category: $(\"Prepare Text\").item.json.category, title: $(\"Prepare Text\").item.json.title }, embedding: $json.data[0].embedding }) }}",
+        "options": {}
+      },
+      "id": "a5a1b2dd-d354-4eee-9ea5-62146157ca50",
+      "name": "Insert to Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        1104,
+        192
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "915f098f-d911-487b-bf8d-0406e29d1ae7",
+      "name": "Process Each Chunk",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        448,
+        192
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Start KB Population": {
+      "main": [
+        [
+          {
+            "node": "Emit KB Chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Emit KB Chunks": {
+      "main": [
+        [
+          {
+            "node": "Process Each Chunk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Text": {
+      "main": [
+        [
+          {
+            "node": "Get Embedding",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Embedding": {
+      "main": [
+        [
+          {
+            "node": "Insert to Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert to Supabase": {
+      "main": [
+        [
+          {
+            "node": "Process Each Chunk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Each Chunk": {
+      "main": [
+        [
+          {
+            "node": "All Chunks Inserted",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Prepare Text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": true
+  },
+  "versionId": "1ff80e4d-6b64-42a8-90fb-a5c9c9723e06",
+  "meta": {
+    "aiBuilderAssisted": true,
+    "builderVariant": "mcp",
+    "instanceId": "1a7b863aba4d8f0c8b5ed068b69adb80568b6971f9a808e93f4fa72b2d3609dc"
+  },
+  "nodeGroups": [],
+  "id": "F6dlVTZ4DazlAD3F",
+  "tags": []
+}
